@@ -1,0 +1,32 @@
+{
+  "name": "product-hunt-ship-pages",
+  "version": "1.0.0",
+  "description": "GitHub Action for Creating and Managing Product Hunt Ship Pages from GitHub",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanclevenger/product-hunt-ship-pages.git"
+  },
+  "keywords": [
+    "product-hunt",
+    "product-hunt-ship",
+    "github-action",
+    "ship-pages"
+  ],
+  "author": "Nathan Clevenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanclevenger/product-hunt-ship-pages/issues"
+  },
+  "homepage": "https://github.com/nathanclevenger/product-hunt-ship-pages#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3",
+    "@vercel/ncc": "^0.34.0",
+    "node-fetch": "^3.2.10",
+    "yaml": "^2.1.1"
+  }
+}
