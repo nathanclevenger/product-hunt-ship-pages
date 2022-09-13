@@ -1,9 +1,11 @@
-# product-hunt-ship-pages
+# Product Hunt Ship Page Automation
+
 GitHub Action for Creating and Managing Product Hunt Ship Pages from GitHub
 
-Create a file called `ship.yaml` in your repository with the following contents:
+Create a file called `_config.yaml` in your repository with the following contents:
 
 ```yaml
+remote_theme: nathanclevenger/ship
 name: Landing.Page.as
 tagline: Instant Landing Pages hosted on GitHub Pages
 thumbnail: https://nathanclevenger.landing.page.as/thumbnail.png
